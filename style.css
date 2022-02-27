@@ -153,7 +153,7 @@ a {
   margin-bottom: 15px;
 }
 .nav_menu ul .con1_item:hover {
-  background-color: antiquewhite;
+  background-color: #f8d2a1;
 }
 .nav_menu ul .cha2 {
   position: relative;
@@ -217,7 +217,7 @@ a {
   margin-bottom: 10px;
 }
 .nav_menu ul .con2 .con2_item:hover {
-  background-color: antiquewhite;
+  background-color: #ffc06e;
 }
 .nav_menu ul .cha3 {
   position: relative;
@@ -299,14 +299,14 @@ a {
 }
 .slide_button2 .buttonXT {
   padding: 8px;
-  background-color: #ec7777;
+  background-color: #f31818;
   margin-top: -25px;
   border: none;
   outline: none;
   transition: all 0.25s ease-in;
 }
 .slide_button2 .buttonXT:hover {
-  background-color: #f70303;
+  background-color: #03f74c;
 }
 .slide_button2 a {
   color: #ffffff;
@@ -735,6 +735,9 @@ a {
   top: 500px;
   left: 1290px;
   z-index: -1;
+  outline: none;
+  border: 2px solid red;
+  transition: all 0.25s ease-in;
 }
 .button_main a > i {
   font-size: 25px;
